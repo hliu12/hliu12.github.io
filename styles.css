@@ -118,17 +118,6 @@ body {
   width: 450px;
 }
 
-#pic-div {
-  /* display: none; */
-  align-self: center;
-  order: 2;
-  margin-left: auto;
-}
-
-#pic-div img {
-  width: 350px;
-}
-
 #flexheaders {
   display: flex;
   align-items: center;
