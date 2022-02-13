@@ -3,21 +3,7 @@
   <head>
     <link href="styles.css" rel="stylesheet" />
     <title>Contact Us</title>
-    <script type="text/javascript" language="javascript">
-      function checkform() {
-        var f = document.forms["theform"].elements;
-        var cansubmit = true;
-
-        for (var i = 0; i < f.length; i++) {
-          if (f[i].value.length == 0) cansubmit = false;
-        }
-        if (cansubmit) {
-          document.getElementById("submit-button").disabled = false;
-        } else {
-          document.getElementById("submit-button").disabled = "disabled";
-        }
-      }
-    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
 
   <body>
@@ -52,7 +38,8 @@
         <div id="contact-info">
           <h1 id="motto">Contact Us</h1>
           <p id="business-info-text">
-            Leave your email to be the first notified when product is released.
+            Leave your email to recieve our monthly newsletter and special deals
+            and discounts!
           </p>
           <div class="form">
             <form action="/" method="post">

@@ -129,6 +129,12 @@ body {
   width: 350px;
 }
 
+#flexheaders {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+
 @media all and (max-width: 900px) {
   #pic-div {
     display: none;
@@ -148,6 +154,29 @@ body {
   font-family: "Tahoma", "Arial", sans-serif;
   font-size: 20px;
   color: rgb(0, 126, 21);
+}
+
+.service-text {
+  font-family: "Tahoma", "Arial", sans-serif;
+  font-size: 20px;
+  color: rgb(0, 126, 21);
+  padding-right: 20px;
+}
+
+.subheading {
+  font-family: "Tahoma", "Arial", sans-serif;
+  color: rgb(0, 126, 21);
+  width: 170px;
+}
+
+.subflex {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
 }
 
 #contact-pic {
